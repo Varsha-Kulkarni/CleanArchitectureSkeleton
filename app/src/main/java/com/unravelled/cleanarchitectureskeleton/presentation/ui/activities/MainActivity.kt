@@ -1,7 +1,8 @@
-package com.unravelled.cleanarchitectureskeleton
+package com.unravelled.cleanarchitectureskeleton.presentation.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.unravelled.cleanarchitectureskeleton.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
