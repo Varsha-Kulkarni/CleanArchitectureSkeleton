@@ -16,4 +16,8 @@ data class DummyData(
     var id: Int = -1,
 
     @SerializedName("name")
-    var name: String = "")
+    var name: String = "",
+
+    @SerializedName("details")
+    var details: String = "")
+

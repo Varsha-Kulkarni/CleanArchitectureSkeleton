@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CleanArchitectureSkeleton</string>
+    <string name="list_error_string">Error getting your List!</string>
 </resources>
