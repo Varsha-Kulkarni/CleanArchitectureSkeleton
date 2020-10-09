@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
@@ -10,7 +10,6 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.unravelled.core"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
@@ -25,6 +24,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {

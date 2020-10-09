@@ -10,7 +10,7 @@ import com.unravelled.core.domain.models.DummyData
  */
 
 @Dao
-interface DummyDao {
-    @Query("SELECT * FROM dummyTable")
+interface DummyDataDao {
+    @Query("SELECT * FROM dummydata_table")
     fun getDummyData(): List<DummyData>
 }

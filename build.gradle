@@ -29,6 +29,8 @@ task clean(type: Delete) {
 
 ext {
     retrofitVersion = '2.9.0'
+    moshiVersion = '1.11.0'
+    retrofitCoroutinesAdapterVersion = "0.9.2"
     roomVersion = '2.2.5'
     archLifecycleVersion = '2.2.0'
     coreTestingVersion = '2.1.0'

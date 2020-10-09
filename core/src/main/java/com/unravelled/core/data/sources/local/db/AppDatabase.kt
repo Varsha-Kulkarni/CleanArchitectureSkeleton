@@ -2,7 +2,7 @@ package com.unravelled.core.data.sources.local.db
 
 import androidx.room.Database
 import androidx.room.RoomDatabase
-import com.unravelled.core.data.sources.local.dao.DummyDao
+import com.unravelled.core.data.sources.local.dao.DummyDataDao
 import com.unravelled.core.domain.models.DummyData
 
 
@@ -11,5 +11,5 @@ import com.unravelled.core.domain.models.DummyData
  */
 @Database(entities = arrayOf(DummyData::class), version = 1,exportSchema = false)
 abstract class AppDatabase  : RoomDatabase() {
-    abstract fun getDummyDao(): DummyDao
+    abstract fun getDummyDataDao(): DummyDataDao
 }
